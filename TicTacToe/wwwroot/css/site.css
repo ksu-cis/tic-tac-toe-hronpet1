@@ -35,3 +35,17 @@ body {
         display: none;
     }
 }
+
+#grid {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-template-rows: 200px 200px 200px;
+}
+
+.square {
+	border: 2px solid red;
+	width: 20p0x;
+	height: 200px;
+	font-size: 90pt;
+	text-align: center;
+}
