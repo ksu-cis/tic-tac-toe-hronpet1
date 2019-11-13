@@ -49,3 +49,28 @@ body {
 	font-size: 90pt;
 	text-align: center;
 }
+
+.board {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.board > .row:nth-child(1) {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.board > .row > .cell:nth-child(2){
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.cell {
+	width: 30vw;
+	height: 30vh;
+}
